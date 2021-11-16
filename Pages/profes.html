@@ -4,26 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profesores</title>
 </head>
+<style>
+    {
+        box-sizing: border-box;
+    }
+    .column {
+        float: left;
+        width: 32%;
+        padding: 5px;
+    }
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+</style>
+
 <body>
     <header>
         <h1>
             BIENVENIDOS A LA ACADEMIA
         </h1>
-        <span>PABLO MAXI MATI</span>
+        <div class="row">
+            <div class="column">PABLO</div>
+            <div class="column">MAXI</div>
+            <div class="column">MATI</div>
+        </div>
         <P>
-        <img style="max-width:20%;max-height: 20%;>" src="../Source/profe3.jpg">     
-        <img style="max-width:20%;max-height: 20%;>" src="../Source/profe1.jpg">
-        <img style="max-width:20%;max-height: 20%;>" src="../Source/profe2.jpg">
-    </P>
-        <p>
+            <div class="row">
+                <div class="column"><img src="../Source/Profe3-Pablo.JPG" width="100%"></div>
+                <div class="column"><img src="../Source/profe1.jpg" width="100%"></div>
+                <div class="column"><img src="../Source/Profe2-Mati.JPG" width="100%"></div>
+            </div>
+        </P>
+        <br>
             Nuestros profes estaran a tu lado desde la primera vez que armes tu arco hasta cuando reclames el muy preciado pin de 70 metros.             
-        </p>
-        <p>
+        </br>
             Te guiaran en el mejoramiento de tu tecnica y la compra de equipo cuando decidas ir por tu primer arco.
-        </p>
-    <FOOTer>
+        <FOOTer>
          <H3>
             Redes
         </H3> 
